@@ -1,0 +1,8 @@
+.next
+dist
+coverage
+package.json
+package-lock.json
+storybook-static
+__generated__
+schema.json
