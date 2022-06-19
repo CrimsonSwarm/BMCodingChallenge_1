@@ -227,13 +227,13 @@ const fakeCartData = {
 function useGetCart() {
   const [cartInfo, setCartInfo] = useState<
     | {
-        loading: true;
-        data: undefined;
-      }
+      loading: true;
+      data: undefined;
+    }
     | {
-        loading: false;
-        data: typeof fakeCartData;
-      }
+      loading: false;
+      data: typeof fakeCartData;
+    }
   >({
     loading: true,
     data: undefined,
@@ -245,7 +245,7 @@ function useGetCart() {
         loading: false,
         data: fakeCartData,
       });
-    }, 5000);
+    }, 1000);
   }, []);
 
   return cartInfo;

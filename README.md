@@ -22,9 +22,9 @@ with the loading state as a boolean and the data if not loading finished
 ## Work to do:
 
 Adjust the index.tsx / create necessary files to:
-
-Display a loading info while the products are in loading state
-
+## DONE
+Display a loading info while the products are in loading state 
+## DONE
 Change index.tsx to display a tile for each product with the following infos:
 
 -   Image (as image; you add also e.g.:"?imwidth=175" to the image url to get a 175px wide image)
@@ -32,6 +32,7 @@ Change index.tsx to display a tile for each product with the following infos:
 -   Base Price (formatted in German Currency format e.g. 1.2 will be "€1,20" )
 -   Base Unit
 
+# NOT DONE YET
 The tiles should be displayed in a grid and as a list on screens
 below 480px. In the grid the minimum tile width should be 300px and as many tiles
 as possible should fit on screen.
