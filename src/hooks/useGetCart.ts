@@ -54,7 +54,7 @@ const fakeCartData = {
       rowPrice: 1.59,
       discount: 0,
       sku: '1287300011',
-      quantity: 1,
+      quantity: 2,
       depositType: null,
       __typename: 'CartProduct',
       replacementProducts: {

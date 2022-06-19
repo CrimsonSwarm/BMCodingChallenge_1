@@ -1,8 +1,22 @@
 .productTileContainer {
+    position: 'relative';
     display: flex;
     margin: 10;
     flex-direction: column;
     justify-content: flex-end;
+}
+
+.amountInCart {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    width: 50%;
+    height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: #b9b9b9;
+    opacity: 70%;
 }
 
 .productImage {
@@ -44,10 +58,9 @@
 
 @media only screen and (max-width: 480px) {
     .productTileContainer {
-        /* display: flex; */
+        position: 'relative';
         flex-direction: row;
         justify-content: space-between;
-        /* justify-content: initial; */
     }
 
     .productTileContainer>section {
@@ -80,6 +93,20 @@
 
     .productUnit {
         margin-bottom: 10px;
+    }
+
+    .amountInCart {
+        position: absolute;
+        left: 70%;
+        top: 80%;
+        width: 30%;
+        height: 30px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: bold;
+        color: black;
+        background: #b9b9b9;
+        opacity: 80%;
     }
 
 }

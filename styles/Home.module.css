@@ -1,5 +1,4 @@
 .container {
-  margin: 0 !important;
   /* min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -7,24 +6,28 @@
   justify-content: center; */
 }
 
-
-
-
-
 .gridContainer {
   display: grid;
   grid-template-columns: auto auto auto;
-  /* margin: 10px; */
   grid-gap: 10px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .gridItem {
   text-align: center;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 10px
+  padding: 10px;
+}
+
+.input {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0px 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 480px) {
@@ -40,6 +43,10 @@
     border-left: 0px;
     border-right: 0px;
     border-radius: 0px;
-    padding: 10px
   }
+
+  .input {
+    width: 100%;
+  }
+
 }

@@ -32,14 +32,14 @@ Change index.tsx to display a tile for each product with the following infos:
 -   Base Price (formatted in German Currency format e.g. 1.2 will be "€1,20" )
 -   Base Unit
 
-# NOT DONE YET
+# DONE
 The tiles should be displayed in a grid and as a list on screens
 below 480px. In the grid the minimum tile width should be 300px and as many tiles
 as possible should fit on screen.
 
 Add an search input field on top that allows filtering the products that contain
 the input in the product name.
-
+# DONE
 Bonus:
 
 -   Add the count in cart (amount > 0) to the product tile (Note: You have
